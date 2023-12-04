@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building website..."
+      - npm install  # Add this line if you have dependencies
+      - npm run build  # Add this line if you have build scripts
+      - aws s3 sync . s3://your-s3-bucket-name/
