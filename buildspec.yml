@@ -4,6 +4,6 @@ phases:
   build:
     commands:
       - echo "Building website..."
-      - npm install  # Add this line if you have dependencies
-      - npm run build  # Add this line if you have build scripts
+      #- npm install  # Add this line if you have dependencies
+      #- npm run build  # Add this line if you have build scripts
       - aws s3 sync . s3:static-webiste-bucket-hycloud/
