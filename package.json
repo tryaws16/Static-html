@@ -1,0 +1,21 @@
+{
+  "name": "static-website",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "main": "index.html",
+  "scripts": {
+    "start": "node index.html",
+    "build": "npm run build" // Replace with the actual build command, e.g., "npm run build"
+  },
+  "dependencies": {
+    // Your project dependencies
+  },
+  "devDependencies": {
+    // Dev dependencies needed for build and development
+  },
+  "engines": {
+    "node": ">=10.0.0" // Adjust the Node.js version as needed
+  },
+  "author": "Your Name",
+  "license": "Your License"
+}
