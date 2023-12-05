@@ -3,8 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo 'Build phase is not needed for this project.'
+      - echo "No build steps needed for a static website."
 
 artifacts:
   files: '**/*'
-  base-directory: '/'
+  base-directory: .
+  discard-paths: no
+  bucket-name: codepipeline-us-east-1-166880800521
